@@ -31,7 +31,7 @@ This repository contains the reference implementation and every experiment of th
 Python 3.11 or later on Linux. macOS works for everything except the kernel-shaped network runs.
 
 ```bash
-git clone <repository URL> fedproof
+git clone https://github.com/Thabit-Mahmood/fedproof.git
 cd fedproof
 python3 -m venv .venv
 source .venv/bin/activate

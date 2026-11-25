@@ -1,4 +1,5 @@
 cff-version: 1.2.0
+repository-code: "https://github.com/Thabit-Mahmood/fedproof"
 message: "If you use this software, please cite it as below."
 title: "FedProof: zero-trust post-quantum federated learning with proof-carrying training"
 version: 1.0.0
