@@ -1,0 +1,130 @@
+"""Figures 5 to 9 of the paper, drawn from the result files (600 dpi PNG).
+
+Usage: python3 figures/results_figures.py [result folder, default results] [output folder, default figures/out]"""
+import json, os, sys, collections
+import numpy as np
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+
+R = sys.argv[1] if len(sys.argv) > 1 else 'results'
+OUT = sys.argv[2] if len(sys.argv) > 2 else 'figures/out'
+os.makedirs(OUT, exist_ok=True)
+plt.rcParams.update({
+    'font.family': 'serif', 'font.serif': ['STIXGeneral', 'DejaVu Serif'], 'mathtext.fontset': 'stix',
+    'font.size': 8, 'axes.titlesize': 8.5, 'axes.labelsize': 8, 'xtick.labelsize': 7, 'ytick.labelsize': 7,
+    'legend.fontsize': 7, 'axes.linewidth': 0.6, 'xtick.major.width': 0.6, 'ytick.major.width': 0.6,
+    'lines.linewidth': 1.1, 'lines.markersize': 3.5, 'axes.grid': True, 'grid.linewidth': 0.4, 'grid.alpha': 0.35,
+    'axes.spines.top': False, 'axes.spines.right': False, 'savefig.dpi': 600, 'legend.frameon': False})
+DS = [('edge-iiotset', 'Edge-IIoTset'), ('wustl-iiot-2021', 'WUSTL-IIoT-2021'), ('x-iiotid', 'X-IIoTID')]
+C_OURS, C_TRUST = '#1f4e8c', '#d9822b'
+SYS = [('plain_fedavg', 'Plain FedAvg', '#8c8c8c', 'x', '-'), ('norm_bound_only', 'Norm bound only', '#8c564b', 's', '--'),
+       ('krum', 'Krum', '#7b4fa0', 'v', ':'), ('median', 'Median', '#2e8b57', 'D', ':'),
+       ('trimmed_mean', 'Trimmed mean', '#17a3a3', 'P', ':'), ('ours', 'Ours', C_OURS, 'o', '-')]
+
+
+def rows(name):
+    p = os.path.join(R, name + '.jsonl')
+    return [json.loads(l) for l in open(p)] if os.path.exists(p) else []
+
+
+def save(fig, name):
+    fig.savefig(os.path.join(OUT, name + '.png'), bbox_inches='tight', pad_inches=0.02)
+    plt.close(fig)
+
+
+# ------------------------------------------------------------------ Fig. 4: detection against privacy
+e1, e2 = rows('E1_detection'), rows('E2_privacy')
+fig, axs = plt.subplots(1, 3, figsize=(7.16, 2.25), sharey=False)
+for ax, (ds, title), let in zip(axs, DS, 'abc'):
+    for sy, sp, u, col, mk, ls, lab in (('ours', 'iid', 2, C_OURS, 'o', '-', 'Ours, 10 plants'),
+                                        ('trusted_dp', 'iid', 2, C_TRUST, 's', '-', 'Trusted aggregator, 10 plants'),
+                                        ('ours', 'iid50', 8, C_OURS, '^', '--', 'Ours, 50 plants'),
+                                        ('trusted_dp', 'iid50', 8, C_TRUST, 'v', '--', 'Trusted aggregator, 50 plants')):
+        pts = collections.defaultdict(list)
+        for r in e2:
+            if r['dataset'] == ds and r['system'] == sy and r['split'] == sp and r['uses'] == u:
+                pts[r['r']].append((r['eps'], r['macro_f1']))
+        xs = sorted((np.mean([p[0] for p in v]), np.mean([p[1] for p in v]), np.std([p[1] for p in v])) for v in pts.values())
+        ax.errorbar([x[0] for x in xs], [x[1] for x in xs], yerr=[x[2] for x in xs], color=col, marker=mk, ls=ls,
+                    capsize=1.5, elinewidth=0.6, label=lab, mfc='white' if ls == '--' else col)
+    nn = np.mean([r['macro_f1'] for r in e1 if r['dataset'] == ds and r['split'] == 'iid' and r['system'] == 'int_no_noise'])
+    fc = np.mean([r['macro_f1'] for r in e1 if r['dataset'] == ds and r['split'] == 'iid' and r['system'] == 'float_central'])
+    ax.axhline(nn, color=C_OURS, lw=0.8, ls=(0, (1, 1.5)), label='Ours, no noise')
+    ax.axhline(fc, color='#555555', lw=0.8, ls=(0, (4, 2)), label='Central float model')
+    ax.set_xscale('log'); ax.set_title('(%s) %s' % (let, title)); ax.set_xlabel(r'Privacy budget $\varepsilon$ ($\delta = 10^{-5}$)')
+    ax.set_ylim(0.2, 1.0)
+axs[0].set_ylabel('Macro-F1')
+h, l = axs[0].get_legend_handles_labels()
+fig.legend(h, l, loc='lower center', ncol=3, bbox_to_anchor=(0.5, -0.13))
+fig.tight_layout(w_pad=1.2)
+save(fig, 'fig5_privacy')
+
+# ------------------------------------------------------------------ Fig. 5: poisoning (mean over datasets and seeds)
+e4 = rows('E4_poisoning')
+panels = (('label_flip', 'macro_f1', 'Label flipping', 'Macro-F1'), ('garbage', 'macro_f1', 'Garbage data', 'Macro-F1'),
+          ('attack_to_normal', 'attack_success', 'Attacks relabelled normal', 'Attack success'),
+          ('backdoor', 'attack_success', 'Feature-trigger backdoor', 'Attack success'))
+fig, axs = plt.subplots(1, 4, figsize=(7.16, 2.05))
+for ax, (at, met, title, yl), let in zip(axs, panels, 'abcd'):
+    for sy, lab, col, mk, ls in SYS:
+        ys, es = [], []
+        for sh in (1, 2, 3):
+            v = [r[met] for r in e4 if r['attack'] == at and r['share'] == sh and r['system'] == sy and r[met] is not None]
+            ys.append(np.mean(v)); es.append(np.std(v) / np.sqrt(max(1, len(v))))
+        ax.errorbar([10, 20, 30], ys, yerr=es, color=col, marker=mk, ls=ls, capsize=1.5, elinewidth=0.6, label=lab,
+                    lw=1.5 if sy == 'ours' else 1.0, zorder=3 if sy == 'ours' else 2)
+    ax.set_title('(%s) %s' % (let, title)); ax.set_xticks([10, 20, 30]); ax.set_xlabel('Poisoned plants (%)'); ax.set_ylabel(yl)
+    ax.set_ylim(-0.03, 1.03) if met == 'attack_success' else ax.set_ylim(0.0, 0.65)
+h, l = axs[0].get_legend_handles_labels()
+fig.legend(h, l, loc='lower center', ncol=6, bbox_to_anchor=(0.5, -0.11))
+fig.tight_layout(w_pad=0.8)
+save(fig, 'fig6_poisoning')
+
+# ------------------------------------------------------------------ Fig. 6: proof cost against model size
+e5 = rows('E5_proofcost')
+fig, axs = plt.subplots(1, 2, figsize=(3.5, 1.75))
+for b, ls in ((16, '--'), (128, '-')):
+    for lvl, col, mk in (('P128', C_OURS, 'o'), ('P256', '#b03a2e', 's')):
+        pts = sorted((r['d'], r['prove_s'], r['verify_s']) for r in e5 if r['b'] == b and r['level'] == lvl)
+        lab = '%s, $b=%d$' % ('128-bit' if lvl == 'P128' else '256-bit', b)
+        axs[0].plot([p[0] / 1000 for p in pts], [p[1] for p in pts], color=col, ls=ls, marker=mk, label=lab, mfc='white' if b == 16 else col)
+        axs[1].plot([p[0] / 1000 for p in pts], [p[2] for p in pts], color=col, ls=ls, marker=mk, mfc='white' if b == 16 else col)
+axs[0].set_ylabel('Prove (s)'); axs[1].set_ylabel('Verify (s)')
+for ax in axs:
+    ax.set_xlabel('Parameters (thousands)')
+h, l = axs[0].get_legend_handles_labels()
+fig.legend(h, l, loc='lower center', ncol=2, bbox_to_anchor=(0.5, -0.2))
+fig.tight_layout(w_pad=1.0)
+save(fig, 'fig7_proof_cost')
+
+# ------------------------------------------------------------------ Fig. 7: round time on kernel-shaped links
+e6 = rows('E6_network')
+prof = (('industrial-ethernet', 'Industrial\nEthernet'), ('private-5g', 'Private\n5G'), ('constrained-wan', 'Constrained\nWAN'))
+get = lambda p, drop, loss, f: np.mean(next(r for r in e6 if r['key'] == 'edge-iiotset|live|%s|drop=%s|loss=%g|kernel' % (p, drop, loss))[f])
+fig, ax = plt.subplots(figsize=(3.5, 1.9))
+x = np.arange(len(prof)); w = 0.2
+series = ((('live', 0), 'Live, no loss', C_OURS, None), (('em', 0), 'Emulated, no loss', '#9db7d8', None),
+          (('live', 1), 'Live, 1% loss', '#b03a2e', None), (('one', 0), 'Emulated, one machine per party', '#cfcfcf', '////'))
+for i, ((kind, loss), lab, col, hatch) in enumerate(series):
+    f = {'live': 'round_s', 'em': 'emulated_same_cores', 'one': 'emulated_one_machine_per_party'}[kind]
+    ys = [get(p, False, loss, f) for p, _ in prof]
+    ax.bar(x + (i - 1.5) * w, ys, w, color=col, edgecolor='#333333', linewidth=0.4, hatch=hatch, label=lab, zorder=3)
+ax.set_xticks(x); ax.set_xticklabels([p[1] for p in prof]); ax.set_ylabel('Round time (s)'); ax.grid(axis='x', visible=False)
+ax.legend(loc='upper left', ncol=2, fontsize=6.5, handlelength=1.2, columnspacing=0.8)
+ax.set_ylim(0, 205)
+fig.tight_layout()
+save(fig, 'fig8_links')
+
+# ------------------------------------------------------------------ Fig. 8: scaling
+e7 = rows('E7_scaling')
+em = sorted({(r['plants'], np.mean(r['emulated_round_s'])) for r in e7})
+rp = sorted({(r['plants'], np.mean(r['replay_round_s'])) for r in e7 if r.get('replay_round_s')})
+fig, ax = plt.subplots(figsize=(3.5, 1.7))
+ax.plot([p[0] for p in em], [p[1] for p in em], color=C_OURS, marker='o', label='Emulated, one machine per party')
+ax.plot([p[0] for p in rp], [p[1] for p in rp], ls='none', marker='s', ms=6, mfc='none', mec='#b03a2e', mew=1.0,
+        label='Replayed over sockets')
+ax.set_xlabel('Plants'); ax.set_ylabel('Round time (s)'); ax.set_xticks([10, 25, 50, 100]); ax.legend(loc='upper left')
+fig.tight_layout()
+save(fig, 'fig9_scaling')
+print('figures written to', OUT)

@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fedproof"
+version = "1.0.0"
+description = "Zero-trust, post-quantum federated learning with proof-carrying training"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.11"
+authors = [
+  {name = "Thabit Mahmood Thabit Ahmed Ibrahim"},
+  {name = "Hafiz Muhammad Attaullah"},
+  {name = "Junaidi Abdullah"},
+  {name = "Mazliham Mohd Su'ud"},
+]
+dependencies = [
+  "numpy>=1.26",
+  "scikit-learn>=1.4",
+  "cryptography>=42",
+  "kyber-py>=1.0",
+  "dilithium-py>=1.0",
+]
+
+[project.optional-dependencies]
+experiments = ["pandas>=2.1", "matplotlib>=3.8"]
+figures = ["matplotlib>=3.8", "cairosvg>=2.7", "pillow>=10"]
+fast = ["pqcrypto>=0.3"]
+
+[tool.setuptools]
+packages = ["fedproof"]
+
+[tool.setuptools.package-data]
+fedproof = ["gl.c"]

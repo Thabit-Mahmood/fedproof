@@ -1,0 +1,1682 @@
+{
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=12, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|1|4|1e-05": {
+"eps": 9.358897512918718,
+"eps_gauss": 4.625229606599699,
+"alpha": 2.5,
+"z": 1.1364995152719553,
+"sigma": 4729.653264246756,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=12, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|4|1e-05": {
+"eps": 12.737584607114263,
+"eps_gauss": 6.7493055555853125,
+"alpha": 2.5,
+"z": 1.1364995152719553,
+"sigma": 4729.653264246756,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=12, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|4|4|1e-05": {
+"eps": 14.779998750067998,
+"eps_gauss": 10.031360524605152,
+"alpha": 2,
+"z": 1.1364995152719553,
+"sigma": 4729.653264246756,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=12, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|4|20|1e-05": {
+"eps": 4.197370906915826,
+"eps_gauss": 4.122191119032253,
+"alpha": 6,
+"z": 2.5412901725436527,
+"sigma": 10575.826208859524,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=12, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|8|20|1e-05": {
+"eps": 6.015630463095544,
+"eps_gauss": 5.975090717716762,
+"alpha": 5,
+"z": 2.5412901725436527,
+"sigma": 10575.826208859524,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=13, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|1|4|1e-05": {
+"eps": 3.5233785675176037,
+"eps_gauss": 2.2079517926122416,
+"alpha": 5,
+"z": 2.2729990813494005,
+"sigma": 9459.3067399255,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=13, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|4|1e-05": {
+"eps": 4.2866348869990905,
+"eps_gauss": 3.1931332443697906,
+"alpha": 5,
+"z": 2.2729990813494005,
+"sigma": 9459.3067399255,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=13, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|4|4|1e-05": {
+"eps": 5.500826752095443,
+"eps_gauss": 4.625229502769397,
+"alpha": 4,
+"z": 2.2729990813494005,
+"sigma": 9459.3067399255,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=13, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|4|20|1e-05": {
+"eps": 1.995604919394137,
+"eps_gauss": 1.9756873516347064,
+"alpha": 12,
+"z": 5.082580458691835,
+"sigma": 21151.652890495345,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=13, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|8|20|1e-05": {
+"eps": 2.8499664815735195,
+"eps_gauss": 2.8276435470691483,
+"alpha": 10,
+"z": 5.082580458691835,
+"sigma": 21151.652890495345,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=14, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|1|4|1e-05": {
+"eps": 1.6028136339614003,
+"eps_gauss": 1.0812230726922802,
+"alpha": 10,
+"z": 4.545998188101546,
+"sigma": 18918.613585566993,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=14, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|4|1e-05": {
+"eps": 1.964288452993538,
+"eps_gauss": 1.5417431589372743,
+"alpha": 10,
+"z": 4.545998188101546,
+"sigma": 18918.613585566993,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=14, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|4|4|1e-05": {
+"eps": 2.488304437623423,
+"eps_gauss": 2.2079517796334547,
+"alpha": 8,
+"z": 4.545998188101546,
+"sigma": 18918.613585566993,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=14, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|4|20|1e-05": {
+"eps": 0.975470264324444,
+"eps_gauss": 0.9650908535013913,
+"alpha": 24,
+"z": 10.165160974185932,
+"sigma": 42303.30601737883,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=14, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|8|20|1e-05": {
+"eps": 1.3918721324797834,
+"eps_gauss": 1.3801582401306747,
+"alpha": 20,
+"z": 10.165160974185932,
+"sigma": 42303.30601737883,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=15, Fhp=16, lr_num=1, lr_shift=3, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|1|4|1e-05": {
+"eps": 0.7689079207963692,
+"eps_gauss": 0.5352864081228613,
+"alpha": 20,
+"z": 9.091996388904464,
+"sigma": 37837.227223991984,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=15, Fhp=16, lr_num=1, lr_shift=3, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|4|1e-05": {
+"eps": 0.948124126177664,
+"eps_gauss": 0.7584920886397917,
+"alpha": 20,
+"z": 9.091996388904464,
+"sigma": 37837.227223991984,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=15, Fhp=16, lr_num=1, lr_shift=3, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|4|4|1e-05": {
+"eps": 1.192889325066055,
+"eps_gauss": 1.0812230710699318,
+"alpha": 16,
+"z": 9.091996388904464,
+"sigma": 37837.227223991984,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=15, Fhp=16, lr_num=1, lr_shift=3, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|4|20|1e-05": {
+"eps": 0.4825182610320966,
+"eps_gauss": 0.4772202986896517,
+"alpha": 48,
+"z": 20.330321976772996,
+"sigma": 84606.61215295174,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=15, Fhp=16, lr_num=1, lr_shift=3, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|8|20|1e-05": {
+"eps": 0.684272443658322,
+"eps_gauss": 0.6810706093955122,
+"alpha": 32,
+"z": 20.330321976772996,
+"sigma": 84606.61215295174,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=16, Fhp=16, lr_num=1, lr_shift=3, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|1|4|1e-05": {
+"eps": 0.3985188304908235,
+"eps_gauss": 0.27952169763807255,
+"alpha": 48,
+"z": 18.183992784159617,
+"sigma": 75674.45447441297,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=16, Fhp=16, lr_num=1, lr_shift=3, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|4|1e-05": {
+"eps": 0.47813125594060507,
+"eps_gauss": 0.376298546625824,
+"alpha": 32,
+"z": 18.183992784159617,
+"sigma": 75674.45447441297,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=16, Fhp=16, lr_num=1, lr_shift=3, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|4|4|1e-05": {
+"eps": 0.5850289621904207,
+"eps_gauss": 0.5352864079200678,
+"alpha": 32,
+"z": 18.183992784159617,
+"sigma": 75674.45447441297,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=16, Fhp=16, lr_num=1, lr_shift=3, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|4|20|1e-05": {
+"eps": 0.2610569668307077,
+"eps_gauss": 0.2601663278405223,
+"alpha": 64,
+"z": 40.66064396774656,
+"sigma": 169213.2243650005,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=16, Fhp=16, lr_num=1, lr_shift=3, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|8|20|1e-05": {
+"eps": 0.33920956222104326,
+"eps_gauss": 0.33758780703072344,
+"alpha": 64,
+"z": 40.66064396774656,
+"sigma": 169213.2243650005,
+"Delta": 4161.597256040173
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=12, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|1|4|1e-05": {
+"eps": 9.473708387366642,
+"eps_gauss": 4.629898857694588,
+"alpha": 2.5,
+"z": 1.1353588727860449,
+"sigma": 4729.653264246756,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=12, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|4|1e-05": {
+"eps": 13.150352237197042,
+"eps_gauss": 6.75708764074346,
+"alpha": 2,
+"z": 1.1353588727860449,
+"sigma": 4729.653264246756,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=12, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|4|4|1e-05": {
+"eps": 14.790317949827964,
+"eps_gauss": 10.043811860858188,
+"alpha": 2,
+"z": 1.1353588727860449,
+"sigma": 4729.653264246756,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=12, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|4|20|1e-05": {
+"eps": 4.201176094913012,
+"eps_gauss": 4.127171653533468,
+"alpha": 6,
+"z": 2.5387396184071327,
+"sigma": 10575.826208859524,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=12, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|8|20|1e-05": {
+"eps": 6.021932595362886,
+"eps_gauss": 5.9813163858432805,
+"alpha": 5,
+"z": 2.5387396184071327,
+"sigma": 10575.826208859524,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=13, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|1|4|1e-05": {
+"eps": 3.533146179956054,
+"eps_gauss": 2.21028641805532,
+"alpha": 5,
+"z": 2.270717796326589,
+"sigma": 9459.3067399255,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=13, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|4|1e-05": {
+"eps": 4.3187542757220765,
+"eps_gauss": 3.1962460782938953,
+"alpha": 5,
+"z": 2.270717796326589,
+"sigma": 9459.3067399255,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=13, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|4|4|1e-05": {
+"eps": 5.504726303303057,
+"eps_gauss": 4.629898753655553,
+"alpha": 4,
+"z": 2.270717796326589,
+"sigma": 9459.3067399255,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=13, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|4|20|1e-05": {
+"eps": 1.9975109553132784,
+"eps_gauss": 1.9775550519891691,
+"alpha": 12,
+"z": 5.077479350304776,
+"sigma": 21151.652890495345,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=13, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|8|20|1e-05": {
+"eps": 2.8531219700741035,
+"eps_gauss": 2.830756380993253,
+"alpha": 10,
+"z": 5.077479350304776,
+"sigma": 21151.652890495345,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=14, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|1|4|1e-05": {
+"eps": 1.606361480193852,
+"eps_gauss": 1.0823903854007737,
+"alpha": 10,
+"z": 4.541435618030428,
+"sigma": 18918.613585566993,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=14, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|4|1e-05": {
+"eps": 1.9746186953924727,
+"eps_gauss": 1.5432995758819321,
+"alpha": 10,
+"z": 4.541435618030428,
+"sigma": 18918.613585566993,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=14, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|4|4|1e-05": {
+"eps": 2.490332756008718,
+"eps_gauss": 2.210286405050441,
+"alpha": 8,
+"z": 4.541435618030428,
+"sigma": 18918.613585566993,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=14, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|4|20|1e-05": {
+"eps": 0.9764242025435614,
+"eps_gauss": 0.9660247036681862,
+"alpha": 24,
+"z": 10.154958757354805,
+"sigma": 42303.30601737883,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=14, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|8|20|1e-05": {
+"eps": 1.39345105338444,
+"eps_gauss": 1.3817146570753325,
+"alpha": 20,
+"z": 10.154958757354805,
+"sigma": 42303.30601737883,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=15, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|1|4|1e-05": {
+"eps": 0.7705090694728893,
+"eps_gauss": 0.5358700644754772,
+"alpha": 20,
+"z": 9.08287124874948,
+"sigma": 37837.227223991984,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=15, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|4|1e-05": {
+"eps": 0.9525400282575258,
+"eps_gauss": 0.7592702971099463,
+"alpha": 20,
+"z": 9.08287124874948,
+"sigma": 37837.227223991984,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=15, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|4|4|1e-05": {
+"eps": 1.1939333169315673,
+"eps_gauss": 1.0823903837751638,
+"alpha": 16,
+"z": 9.08287124874948,
+"sigma": 37837.227223991984,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=15, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|4|20|1e-05": {
+"eps": 0.4829954687411274,
+"eps_gauss": 0.47768722377174455,
+"alpha": 48,
+"z": 20.30991754308224,
+"sigma": 84606.61215295174,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=15, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|8|20|1e-05": {
+"eps": 0.6849007968645313,
+"eps_gauss": 0.6816931761716359,
+"alpha": 32,
+"z": 20.30991754308224,
+"sigma": 84606.61215295174,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=16, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|1|4|1e-05": {
+"eps": 0.401116083699885,
+"eps_gauss": 0.2797162497554753,
+"alpha": 48,
+"z": 18.165742503843273,
+"sigma": 75674.45447441297,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=16, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|4|1e-05": {
+"eps": 0.47838262026535083,
+"eps_gauss": 0.37668765086062955,
+"alpha": 32,
+"z": 18.165742503843273,
+"sigma": 75674.45447441297,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=16, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|4|4|1e-05": {
+"eps": 0.5855596343196829,
+"eps_gauss": 0.535870064272276,
+"alpha": 32,
+"z": 18.165742503843273,
+"sigma": 75674.45447441297,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=16, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|4|20|1e-05": {
+"eps": 0.26121407897525023,
+"eps_gauss": 0.2603219695344445,
+"alpha": 64,
+"z": 40.61983510035079,
+"sigma": 169213.2243650005,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=16, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|8|20|1e-05": {
+"eps": 0.3395237859855196,
+"eps_gauss": 0.33789909041856786,
+"alpha": 64,
+"z": 40.61983510035079,
+"sigma": 169213.2243650005,
+"Delta": 4165.778220097678
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=12, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|1|4|1e-05": {
+"eps": 9.751193290506901,
+"eps_gauss": 4.639823549962836,
+"alpha": 2.5,
+"z": 1.1329457525350957,
+"sigma": 4729.653264246756,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=12, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|4|1e-05": {
+"eps": 13.158589465800116,
+"eps_gauss": 6.773628794523873,
+"alpha": 2,
+"z": 1.1329457525350957,
+"sigma": 4729.653264246756,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=12, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|4|4|1e-05": {
+"eps": 14.815546003885,
+"eps_gauss": 10.070277706906849,
+"alpha": 2,
+"z": 1.1329457525350957,
+"sigma": 4729.653264246756,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=12, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|4|20|1e-05": {
+"eps": 4.209264142341755,
+"eps_gauss": 4.137757991952933,
+"alpha": 6,
+"z": 2.533343717488129,
+"sigma": 10575.826208859524,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=12, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|8|20|1e-05": {
+"eps": 6.035328039127901,
+"eps_gauss": 5.99454930886761,
+"alpha": 5,
+"z": 2.533343717488129,
+"sigma": 10575.826208859524,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=13, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|1|4|1e-05": {
+"eps": 3.5549880829075864,
+"eps_gauss": 2.21524876396761,
+"alpha": 5,
+"z": 2.2658915557168156,
+"sigma": 9459.3067399255,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=13, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|4|1e-05": {
+"eps": 4.390295291143673,
+"eps_gauss": 3.2028625395102814,
+"alpha": 5,
+"z": 2.2658915557168156,
+"sigma": 9459.3067399255,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=13, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|4|4|1e-05": {
+"eps": 5.513095444080741,
+"eps_gauss": 4.639823445480133,
+"alpha": 4,
+"z": 2.2658915557168156,
+"sigma": 9459.3067399255,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=13, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|4|20|1e-05": {
+"eps": 2.001562266745742,
+"eps_gauss": 1.981524928719001,
+"alpha": 12,
+"z": 5.066687548225553,
+"sigma": 21151.652890495345,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=13, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|8|20|1e-05": {
+"eps": 2.8598290860618416,
+"eps_gauss": 2.837372842209639,
+"alpha": 10,
+"z": 5.066687548225553,
+"sigma": 21151.652890495345,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=14, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|1|4|1e-05": {
+"eps": 1.614057117450645,
+"eps_gauss": 1.0848715583291892,
+"alpha": 10,
+"z": 4.531783136756943,
+"sigma": 18918.613585566993,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=14, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|4|1e-05": {
+"eps": 1.9968975893061347,
+"eps_gauss": 1.546607806453153,
+"alpha": 10,
+"z": 4.531783136756943,
+"sigma": 18918.613585566993,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=14, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|4|4|1e-05": {
+"eps": 2.494658673234696,
+"eps_gauss": 2.2152487509072727,
+"alpha": 8,
+"z": 4.531783136756943,
+"sigma": 18918.613585566993,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=14, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|4|20|1e-05": {
+"eps": 0.9784518018323333,
+"eps_gauss": 0.9680096420109185,
+"alpha": 24,
+"z": 10.133375153075752,
+"sigma": 42303.30601737883,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=14, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|8|20|1e-05": {
+"eps": 1.396807109751272,
+"eps_gauss": 1.3850228876465533,
+"alpha": 20,
+"z": 10.133375153075752,
+"sigma": 42303.30601737883,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=15, Fhp=16, lr_num=1, lr_shift=3, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|1|4|1e-05": {
+"eps": 0.7739439627339255,
+"eps_gauss": 0.5371106509362189,
+"alpha": 20,
+"z": 9.063566286175543,
+"sigma": 37837.227223991984,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=15, Fhp=16, lr_num=1, lr_shift=3, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|4|1e-05": {
+"eps": 0.9620388771317785,
+"eps_gauss": 0.7609244123909352,
+"alpha": 20,
+"z": 9.063566286175543,
+"sigma": 37837.227223991984,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=15, Fhp=16, lr_num=1, lr_shift=3, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|4|4|1e-05": {
+"eps": 1.1961552556393926,
+"eps_gauss": 1.0848715566966471,
+"alpha": 16,
+"z": 9.063566286175543,
+"sigma": 37837.227223991984,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=15, Fhp=16, lr_num=1, lr_shift=3, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|4|20|1e-05": {
+"eps": 0.4840097714072497,
+"eps_gauss": 0.47867969294033785,
+"alpha": 48,
+"z": 20.26675033446383,
+"sigma": 84606.61215295174,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=15, Fhp=16, lr_num=1, lr_shift=3, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|8|20|1e-05": {
+"eps": 0.6862363877818798,
+"eps_gauss": 0.683016468396427,
+"alpha": 32,
+"z": 20.26675033446383,
+"sigma": 84606.61215295174,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=16, Fhp=16, lr_num=1, lr_shift=4, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|1|4|1e-05": {
+"eps": 0.40641114093757724,
+"eps_gauss": 0.2801297785754337,
+"alpha": 48,
+"z": 18.127132578681916,
+"sigma": 75674.45447441297,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=16, Fhp=16, lr_num=1, lr_shift=4, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|4|1e-05": {
+"eps": 0.4789161228997128,
+"eps_gauss": 0.3775147085005463,
+"alpha": 32,
+"z": 18.127132578681916,
+"sigma": 75674.45447441297,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=16, Fhp=16, lr_num=1, lr_shift=4, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|4|4|1e-05": {
+"eps": 0.5866879267720598,
+"eps_gauss": 0.5371106507321513,
+"alpha": 32,
+"z": 18.127132578681916,
+"sigma": 75674.45447441297,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=16, Fhp=16, lr_num=1, lr_shift=4, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|4|20|1e-05": {
+"eps": 0.2615480272539773,
+"eps_gauss": 0.2606527925904112,
+"alpha": 64,
+"z": 40.533500683083815,
+"sigma": 169213.2243650005,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=16, Fhp=16, lr_num=1, lr_shift=4, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|8|20|1e-05": {
+"eps": 0.3401916816492259,
+"eps_gauss": 0.3385607365305012,
+"alpha": 64,
+"z": 40.533500683083815,
+"sigma": 169213.2243650005,
+"Delta": 4174.651128408943
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=12, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|1|1e-05": {
+"eps": Infinity,
+"eps_gauss": Infinity,
+"alpha": null,
+"z": 0.5682497576359776,
+"sigma": 2364.826632123378,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=12, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|2|1e-05": {
+"eps": Infinity,
+"eps_gauss": Infinity,
+"alpha": null,
+"z": 0.803626514064024,
+"sigma": 3344.3698958099717,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=12, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|3|1e-05": {
+"eps": Infinity,
+"eps_gauss": Infinity,
+"alpha": null,
+"z": 0.9842374516142139,
+"sigma": 4095.9998779296857,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=12, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|5|1e-05": {
+"eps": 7.792597649984659,
+"eps_gauss": 5.975090717716762,
+"alpha": 3,
+"z": 1.2706450862718264,
+"sigma": 5287.913104429762,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=12, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|6|1e-05": {
+"eps": 6.199843342076946,
+"eps_gauss": 5.399444444468251,
+"alpha": 4,
+"z": 1.3919219526683542,
+"sigma": 5792.618578846703,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=12, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|7|1e-05": {
+"eps": 5.510160686863348,
+"eps_gauss": 4.957035965686222,
+"alpha": 5,
+"z": 1.5034475412775237,
+"sigma": 6256.743162380888,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=12, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|8|1e-05": {
+"eps": 5.030002437236788,
+"eps_gauss": 4.625229606599699,
+"alpha": 5,
+"z": 1.607253028128048,
+"sigma": 6688.739791619943,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=12, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|9|1e-05": {
+"eps": 4.655324301535806,
+"eps_gauss": 4.367157993976849,
+"alpha": 6,
+"z": 1.7047492729079332,
+"sigma": 7094.479896370135,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=12, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|10|1e-05": {
+"eps": 4.346053728830894,
+"eps_gauss": 4.122191119032253,
+"alpha": 6,
+"z": 1.7969635139683482,
+"sigma": 7478.238428934986,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=13, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|1|1e-05": {
+"eps": Infinity,
+"eps_gauss": Infinity,
+"alpha": null,
+"z": 1.1364995406747003,
+"sigma": 4729.65336996275,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=13, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|2|1e-05": {
+"eps": Infinity,
+"eps_gauss": Infinity,
+"alpha": null,
+"z": 1.6072530640529543,
+"sigma": 6688.739941124935,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=13, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|3|1e-05": {
+"eps": 9.392804400046629,
+"eps_gauss": 3.709276446542091,
+"alpha": 2.5,
+"z": 1.968474947227273,
+"sigma": 8191.999938964844,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=13, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|5|1e-05": {
+"eps": 3.351657757598872,
+"eps_gauss": 2.8276435470691483,
+"alpha": 6,
+"z": 2.5412902293459174,
+"sigma": 10575.826445247672,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=13, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|6|1e-05": {
+"eps": 2.866576852221742,
+"eps_gauss": 2.5695719459829984,
+"alpha": 8,
+"z": 2.783843967560472,
+"sigma": 11585.23741664365,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=13, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|7|1e-05": {
+"eps": 2.6177341030388406,
+"eps_gauss": 2.3738549647390528,
+"alpha": 8,
+"z": 3.0068951497643934,
+"sigma": 12513.486604460006,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=13, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|8|1e-05": {
+"eps": 2.3733635559391875,
+"eps_gauss": 2.2079517926122416,
+"alpha": 10,
+"z": 3.2145061281059086,
+"sigma": 13377.47988224987,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=13, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|9|1e-05": {
+"eps": 2.217283583767268,
+"eps_gauss": 2.0789159920691667,
+"alpha": 10,
+"z": 3.409498622024101,
+"sigma": 14188.96010988825,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=13, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|10|1e-05": {
+"eps": 2.0798958654644824,
+"eps_gauss": 1.9756873516347064,
+"alpha": 12,
+"z": 3.5939271082672293,
+"sigma": 14956.477192173295,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=14, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|1|1e-05": {
+"eps": Infinity,
+"eps_gauss": Infinity,
+"alpha": null,
+"z": 2.272999094050773,
+"sigma": 9459.306792783496,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=14, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|2|1e-05": {
+"eps": Infinity,
+"eps_gauss": Infinity,
+"alpha": null,
+"z": 3.214506146068361,
+"sigma": 13377.479957002364,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=14, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|3|1e-05": {
+"eps": 3.233471991746186,
+"eps_gauss": 1.7998147571392495,
+"alpha": 5,
+"z": 3.9369499164539676,
+"sigma": 16383.999969482422,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=14, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|5|1e-05": {
+"eps": 1.5809629764471342,
+"eps_gauss": 1.3801582401306747,
+"alpha": 12,
+"z": 5.082580487092966,
+"sigma": 21151.653008689416,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=14, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|6|1e-05": {
+"eps": 1.389613404539813,
+"eps_gauss": 1.251122441029687,
+"alpha": 16,
+"z": 5.567687966232825,
+"sigma": 23170.474962762415,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=14, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|7|1e-05": {
+"eps": 1.2582753418522397,
+"eps_gauss": 1.1589540131004101,
+"alpha": 16,
+"z": 6.013790333133459,
+"sigma": 25026.973348769123,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=14, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|8|1e-05": {
+"eps": 1.1579520752625003,
+"eps_gauss": 1.0812230726922802,
+"alpha": 20,
+"z": 6.429012292136722,
+"sigma": 26754.95991400473,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=14, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|9|1e-05": {
+"eps": 1.07769785297944,
+"eps_gauss": 1.0167051731417864,
+"alpha": 20,
+"z": 6.818997282152319,
+"sigma": 28377.92037835049,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=14, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|10|1e-05": {
+"eps": 1.0202105601009839,
+"eps_gauss": 0.9650908535013913,
+"alpha": 24,
+"z": 7.187854256699724,
+"sigma": 29912.954551498253,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=15, Fhp=16, lr_num=1, lr_shift=3, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|1|1e-05": {
+"eps": Infinity,
+"eps_gauss": Infinity,
+"alpha": null,
+"z": 4.545998194452232,
+"sigma": 18918.613611995992,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=15, Fhp=16, lr_num=1, lr_shift=3, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|2|1e-05": {
+"eps": 5.96303961969995,
+"eps_gauss": 1.0812230710699318,
+"alpha": 3,
+"z": 6.429012301117949,
+"sigma": 26754.959951380977,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=15, Fhp=16, lr_num=1, lr_shift=3, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|3|1e-05": {
+"eps": 1.421300995403161,
+"eps_gauss": 0.8875278873802575,
+"alpha": 12,
+"z": 7.873899843907647,
+"sigma": 32767.99998474121,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=15, Fhp=16, lr_num=1, lr_shift=3, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|5|1e-05": {
+"eps": 0.7704132834902229,
+"eps_gauss": 0.6810706093955122,
+"alpha": 24,
+"z": 10.165160988386498,
+"sigma": 42303.30607647587,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=15, Fhp=16, lr_num=1, lr_shift=3, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|6|1e-05": {
+"eps": 0.6852447134585017,
+"eps_gauss": 0.6294562898993259,
+"alpha": 32,
+"z": 11.13537594802159,
+"sigma": 46340.949990262394,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=15, Fhp=16, lr_num=1, lr_shift=3, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|7|1e-05": {
+"eps": 0.617884387317249,
+"eps_gauss": 0.5767622005751538,
+"alpha": 32,
+"z": 12.027580683069255,
+"sigma": 50053.9467674628,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=15, Fhp=16, lr_num=1, lr_shift=3, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|8|1e-05": {
+"eps": 0.5798347719322821,
+"eps_gauss": 0.5352864081228613,
+"alpha": 32,
+"z": 12.858024602235899,
+"sigma": 53509.919902761954,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=15, Fhp=16, lr_num=1, lr_shift=3, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|9|1e-05": {
+"eps": 0.5474084948749177,
+"eps_gauss": 0.5030274584377449,
+"alpha": 48,
+"z": 13.637994583356697,
+"sigma": 56755.840835987976,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=15, Fhp=16, lr_num=1, lr_shift=3, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|10|1e-05": {
+"eps": 0.5055423891379156,
+"eps_gauss": 0.4772202986896517,
+"alpha": 48,
+"z": 14.375708533482081,
+"sigma": 59825.90918657233,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=16, Fhp=16, lr_num=1, lr_shift=3, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|1|1e-05": {
+"eps": Infinity,
+"eps_gauss": Infinity,
+"alpha": null,
+"z": 9.091996392079809,
+"sigma": 37837.22723720648,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=16, Fhp=16, lr_num=1, lr_shift=3, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|2|1e-05": {
+"eps": 1.850408971336182,
+"eps_gauss": 0.5352864079200678,
+"alpha": 8,
+"z": 12.858024606726511,
+"sigma": 53509.91992145008,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=16, Fhp=16, lr_num=1, lr_shift=3, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|3|1e-05": {
+"eps": 0.6700510466483343,
+"eps_gauss": 0.4385095589323163,
+"alpha": 24,
+"z": 15.747799693315148,
+"sigma": 65535.999992370605,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=16, Fhp=16, lr_num=1, lr_shift=3, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|5|1e-05": {
+"eps": 0.38057855405986996,
+"eps_gauss": 0.33758780703072344,
+"alpha": 48,
+"z": 20.33032198387328,
+"sigma": 84606.61218250025,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=16, Fhp=16, lr_num=1, lr_shift=3, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|6|1e-05": {
+"eps": 0.3403761018036163,
+"eps_gauss": 0.31178064730065636,
+"alpha": 64,
+"z": 22.27075190382115,
+"sigma": 92681.90001289356,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=16, Fhp=16, lr_num=1, lr_shift=3, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|7|1e-05": {
+"eps": 0.30628436522723357,
+"eps_gauss": 0.2933469617791799,
+"alpha": 64,
+"z": 24.055161374539676,
+"sigma": 100107.89356988788,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=16, Fhp=16, lr_num=1, lr_shift=3, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|8|1e-05": {
+"eps": 0.2871174362463075,
+"eps_gauss": 0.27952169763807255,
+"alpha": 64,
+"z": 25.716049213453022,
+"sigma": 107019.83984290015,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=16, Fhp=16, lr_num=1, lr_shift=3, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|9|1e-05": {
+"eps": 0.27376433150013263,
+"eps_gauss": 0.2687687144172113,
+"alpha": 64,
+"z": 27.27598917623942,
+"sigma": 113511.68171161944,
+"Delta": 4161.597256040173
+},
+"Config(arch=(26, 64, 32, 15), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=16, Fhp=16, lr_num=1, lr_shift=3, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|10|1e-05": {
+"eps": 0.26368358607073483,
+"eps_gauss": 0.2601663278405223,
+"alpha": 64,
+"z": 28.751417077005478,
+"sigma": 119651.81841493258,
+"Delta": 4161.597256040173
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=12, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|1|1e-05": {
+"eps": Infinity,
+"eps_gauss": Infinity,
+"alpha": null,
+"z": 0.5676794363930224,
+"sigma": 2364.826632123378,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=12, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|2|1e-05": {
+"eps": Infinity,
+"eps_gauss": Infinity,
+"alpha": null,
+"z": 0.8028199580273272,
+"sigma": 3344.3698958099717,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=12, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|3|1e-05": {
+"eps": Infinity,
+"eps_gauss": Infinity,
+"alpha": null,
+"z": 0.9832496262447797,
+"sigma": 4095.9998779296857,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=12, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|5|1e-05": {
+"eps": 7.79705746458305,
+"eps_gauss": 5.9813163858432805,
+"alpha": 3,
+"z": 1.2693698092035663,
+"sigma": 5287.913104429762,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=12, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|6|1e-05": {
+"eps": 6.205344501049955,
+"eps_gauss": 5.405670112594768,
+"alpha": 4,
+"z": 1.3905249566336442,
+"sigma": 5792.618578846703,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=12, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|7|1e-05": {
+"eps": 5.5168198848599515,
+"eps_gauss": 4.962372252651808,
+"alpha": 5,
+"z": 1.501938613101247,
+"sigma": 6256.743162380888,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=12, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|8|1e-05": {
+"eps": 5.0344268634430875,
+"eps_gauss": 4.629898857694588,
+"alpha": 5,
+"z": 1.6056399160546544,
+"sigma": 6688.739791619943,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=12, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|9|1e-05": {
+"eps": 4.660366417886883,
+"eps_gauss": 4.371308439394527,
+"alpha": 6,
+"z": 1.7030383091790675,
+"sigma": 7094.479896370135,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=12, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|10|1e-05": {
+"eps": 4.350226538663815,
+"eps_gauss": 4.127171653533468,
+"alpha": 6,
+"z": 1.7951599998426315,
+"sigma": 7478.238428934986,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=13, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|1|1e-05": {
+"eps": Infinity,
+"eps_gauss": Infinity,
+"alpha": null,
+"z": 1.1353588981632945,
+"sigma": 4729.65336996275,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=13, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|2|1e-05": {
+"eps": Infinity,
+"eps_gauss": Infinity,
+"alpha": null,
+"z": 1.605639951943505,
+"sigma": 6688.739941124935,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=13, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|3|1e-05": {
+"eps": 9.885213963964858,
+"eps_gauss": 3.71342689177423,
+"alpha": 2.5,
+"z": 1.9664992964442451,
+"sigma": 8191.999938964844,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=13, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|5|1e-05": {
+"eps": 3.3541673955094016,
+"eps_gauss": 2.830756380993253,
+"alpha": 6,
+"z": 2.538739675152388,
+"sigma": 10575.826445247672,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=13, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|6|1e-05": {
+"eps": 2.869770825371405,
+"eps_gauss": 2.5721659742530854,
+"alpha": 8,
+"z": 2.7810499754286013,
+"sigma": 11585.23741664365,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=13, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|7|1e-05": {
+"eps": 2.6197210526585044,
+"eps_gauss": 2.3765231081025706,
+"alpha": 8,
+"z": 3.003877293344386,
+"sigma": 12513.486604460006,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=13, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|8|1e-05": {
+"eps": 2.375684791437439,
+"eps_gauss": 2.21028641805532,
+"alpha": 10,
+"z": 3.21127990388701,
+"sigma": 13377.47988224987,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=13, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|9|1e-05": {
+"eps": 2.2191891954267176,
+"eps_gauss": 2.0809912146852363,
+"alpha": 10,
+"z": 3.4060766944898835,
+"sigma": 14188.96010988825,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=13, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|10|1e-05": {
+"eps": 2.0820462897264793,
+"eps_gauss": 1.9775550519891691,
+"alpha": 12,
+"z": 3.5903200799351724,
+"sigma": 14956.477192173295,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=14, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|1|1e-05": {
+"eps": Infinity,
+"eps_gauss": Infinity,
+"alpha": null,
+"z": 2.270717809015214,
+"sigma": 9459.306792783496,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=14, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|2|1e-05": {
+"eps": Infinity,
+"eps_gauss": Infinity,
+"alpha": null,
+"z": 3.2112799218314345,
+"sigma": 13377.479957002364,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=14, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|3|1e-05": {
+"eps": 3.2363850875550817,
+"eps_gauss": 1.8018899797321266,
+"alpha": 5,
+"z": 3.932998614865833,
+"sigma": 16383.999969482422,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=14, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|5|1e-05": {
+"eps": 1.5823216400066689,
+"eps_gauss": 1.3817146570753325,
+"alpha": 12,
+"z": 5.077479378677403,
+"sigma": 21151.653008689416,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=14, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|6|1e-05": {
+"eps": 1.3913498333709533,
+"eps_gauss": 1.2524194551502352,
+"alpha": 16,
+"z": 5.562099981937857,
+"sigma": 23170.474962762415,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=14, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|7|1e-05": {
+"eps": 1.2592888475708959,
+"eps_gauss": 1.1600657394894514,
+"alpha": 16,
+"z": 6.007754620259717,
+"sigma": 25026.973348769123,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=14, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|8|1e-05": {
+"eps": 1.1591502993703569,
+"eps_gauss": 1.0823903854007737,
+"alpha": 20,
+"z": 6.422559843662869,
+"sigma": 26754.95991400473,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=14, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|9|1e-05": {
+"eps": 1.0786625771544707,
+"eps_gauss": 1.017742784438225,
+"alpha": 20,
+"z": 6.812153427045641,
+"sigma": 28377.92037835049,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=14, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|10|1e-05": {
+"eps": 1.0213073479319765,
+"eps_gauss": 0.9660247036681862,
+"alpha": 24,
+"z": 7.180640199995299,
+"sigma": 29912.954551498253,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=15, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|1|1e-05": {
+"eps": Infinity,
+"eps_gauss": Infinity,
+"alpha": null,
+"z": 4.54143562437474,
+"sigma": 18918.613611995992,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=15, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|2|1e-05": {
+"eps": 6.1448181944423235,
+"eps_gauss": 1.0823903837751638,
+"alpha": 3,
+"z": 6.422559852635082,
+"sigma": 26754.959951380977,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=15, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|3|1e-05": {
+"eps": 1.4413392294362117,
+"eps_gauss": 0.888447581429388,
+"alpha": 12,
+"z": 7.865997240720336,
+"sigma": 32767.99998474121,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=15, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|5|1e-05": {
+"eps": 0.7711228620590633,
+"eps_gauss": 0.6816931761716359,
+"alpha": 24,
+"z": 10.15495877154112,
+"sigma": 42303.30607647587,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=15, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|6|1e-05": {
+"eps": 0.686148131597587,
+"eps_gauss": 0.6299750955460957,
+"alpha": 32,
+"z": 11.124199979416044,
+"sigma": 46340.949990262394,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=15, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|7|1e-05": {
+"eps": 0.6183972765501371,
+"eps_gauss": 0.5774292364067151,
+"alpha": 32,
+"z": 12.015509257304906,
+"sigma": 50053.9467674628,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=15, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|8|1e-05": {
+"eps": 0.5802556475563739,
+"eps_gauss": 0.5358700644754772,
+"alpha": 32,
+"z": 12.845119705270164,
+"sigma": 53509.919902761954,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=15, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|9|1e-05": {
+"eps": 0.5481251577451802,
+"eps_gauss": 0.5035462640845146,
+"alpha": 48,
+"z": 13.62430687312422,
+"sigma": 56755.840835987976,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=15, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|10|1e-05": {
+"eps": 0.5060969814570784,
+"eps_gauss": 0.47768722377174455,
+"alpha": 48,
+"z": 14.361280420053074,
+"sigma": 59825.90918657233,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=16, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|1|1e-05": {
+"eps": Infinity,
+"eps_gauss": Infinity,
+"alpha": null,
+"z": 9.082871251921636,
+"sigma": 37837.22723720648,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=16, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|2|1e-05": {
+"eps": 1.9044433298883567,
+"eps_gauss": 0.535870064272276,
+"alpha": 8,
+"z": 12.84511970975627,
+"sigma": 53509.91992145008,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=16, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|3|1e-05": {
+"eps": 0.6773684984983097,
+"eps_gauss": 0.43889866316712184,
+"alpha": 24,
+"z": 15.731994486935008,
+"sigma": 65535.999992370605,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=16, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|5|1e-05": {
+"eps": 0.3809414118988376,
+"eps_gauss": 0.33789909041856786,
+"alpha": 48,
+"z": 20.309917550175395,
+"sigma": 84606.61218250025,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=16, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|6|1e-05": {
+"eps": 0.3408371058687054,
+"eps_gauss": 0.31204005012386005,
+"alpha": 64,
+"z": 22.24839996660225,
+"sigma": 92681.90001289356,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=16, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|7|1e-05": {
+"eps": 0.30654251180904835,
+"eps_gauss": 0.29356930705621165,
+"alpha": 64,
+"z": 24.031018523002547,
+"sigma": 100107.89356988788,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=16, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|8|1e-05": {
+"eps": 0.2873283575903194,
+"eps_gauss": 0.2797162497554753,
+"alpha": 64,
+"z": 25.69023941951254,
+"sigma": 107019.83984290015,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=16, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|9|1e-05": {
+"eps": 0.2739473138764681,
+"eps_gauss": 0.2689416496326804,
+"alpha": 64,
+"z": 27.248613755764907,
+"sigma": 113511.68171161944,
+"Delta": 4165.778220097678
+},
+"Config(arch=(40, 64, 32, 5), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=16, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|10|1e-05": {
+"eps": 0.26384608046746005,
+"eps_gauss": 0.2603219695344445,
+"alpha": 64,
+"z": 28.722560850137388,
+"sigma": 119651.81841493258,
+"Delta": 4165.778220097678
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=12, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|1|1e-05": {
+"eps": Infinity,
+"eps_gauss": Infinity,
+"alpha": null,
+"z": 0.5664728762675478,
+"sigma": 2364.826632123378,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=12, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|2|1e-05": {
+"eps": Infinity,
+"eps_gauss": Infinity,
+"alpha": null,
+"z": 0.8011136243340624,
+"sigma": 3344.3698958099717,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=12, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|3|1e-05": {
+"eps": Infinity,
+"eps_gauss": Infinity,
+"alpha": null,
+"z": 0.981159802805071,
+"sigma": 4095.9998779296857,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=12, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|5|1e-05": {
+"eps": 7.806532204448908,
+"eps_gauss": 5.99454930886761,
+"alpha": 3,
+"z": 1.2666718587440644,
+"sigma": 5287.913104429762,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=12, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|6|1e-05": {
+"eps": 6.216975756611378,
+"eps_gauss": 5.418903035619099,
+"alpha": 4,
+"z": 1.3875694999822428,
+"sigma": 5792.618578846703,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=12, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|7|1e-05": {
+"eps": 5.530765308795899,
+"eps_gauss": 4.973714758101234,
+"alpha": 5,
+"z": 1.4987463550673943,
+"sigma": 6256.743162380888,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=12, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|8|1e-05": {
+"eps": 5.043807514154439,
+"eps_gauss": 4.639823549962836,
+"alpha": 5,
+"z": 1.6022272486681248,
+"sigma": 6688.739791619943,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=12, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|9|1e-05": {
+"eps": 4.67101281319424,
+"eps_gauss": 4.380130388077415,
+"alpha": 6,
+"z": 1.6994186288026438,
+"sigma": 7094.479896370135,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=12, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|10|1e-05": {
+"eps": 4.359078696366359,
+"eps_gauss": 4.137757991952933,
+"alpha": 6,
+"z": 1.7913445217121933,
+"sigma": 7478.238428934986,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=13, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|1|1e-05": {
+"eps": Infinity,
+"eps_gauss": Infinity,
+"alpha": null,
+"z": 1.1329457778584078,
+"sigma": 4729.65336996275,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=13, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|2|1e-05": {
+"eps": Infinity,
+"eps_gauss": Infinity,
+"alpha": null,
+"z": 1.6022272844806964,
+"sigma": 6688.739941124935,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=13, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|3|1e-05": {
+"eps": 11.267323903284662,
+"eps_gauss": 3.722248840062745,
+"alpha": 2.5,
+"z": 1.9623196494714055,
+"sigma": 8191.999938964844,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=13, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|5|1e-05": {
+"eps": 3.3594823784351076,
+"eps_gauss": 2.837372842209639,
+"alpha": 6,
+"z": 2.5333437741127764,
+"sigma": 10575.826445247672,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=13, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|6|1e-05": {
+"eps": 2.8764899348707598,
+"eps_gauss": 2.5776796919334073,
+"alpha": 8,
+"z": 2.7751390619936793,
+"sigma": 11585.23741664365,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=13, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|7|1e-05": {
+"eps": 2.623937229824272,
+"eps_gauss": 2.382194360573759,
+"alpha": 8,
+"z": 2.997492777133975,
+"sigma": 12513.486604460006,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=13, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|8|1e-05": {
+"eps": 2.3805914532821983,
+"eps_gauss": 2.21524876396761,
+"alpha": 10,
+"z": 3.204454568961393,
+"sigma": 13377.47988224987,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=13, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|9|1e-05": {
+"eps": 2.2232341006264162,
+"eps_gauss": 2.0854021888294936,
+"alpha": 10,
+"z": 3.3988373335752238,
+"sigma": 14188.96010988825,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=13, Fhp=16, lr_num=1, lr_shift=1, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|10|1e-05": {
+"eps": 2.086599042567217,
+"eps_gauss": 1.981524928719001,
+"alpha": 12,
+"z": 3.5826891235037306,
+"sigma": 14956.477192173295,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=14, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|1|1e-05": {
+"eps": Infinity,
+"eps_gauss": Infinity,
+"alpha": null,
+"z": 2.2658915683784717,
+"sigma": 9459.306792783496,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=14, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|2|1e-05": {
+"eps": Infinity,
+"eps_gauss": Infinity,
+"alpha": null,
+"z": 3.2044545868676777,
+"sigma": 13377.479957002364,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=14, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|3|1e-05": {
+"eps": 3.2435913520591395,
+"eps_gauss": 1.8063009538270878,
+"alpha": 5,
+"z": 3.924639320873442,
+"sigma": 16383.999969482422,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=14, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|5|1e-05": {
+"eps": 1.585190065349538,
+"eps_gauss": 1.3850228876465533,
+"alpha": 12,
+"z": 5.066687576537876,
+"sigma": 21151.653008689416,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=14, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|6|1e-05": {
+"eps": 1.3949800601157998,
+"eps_gauss": 1.255176313959586,
+"alpha": 16,
+"z": 5.550278155001955,
+"sigma": 23170.474962762415,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=14, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|7|1e-05": {
+"eps": 1.2614372004170025,
+"eps_gauss": 1.1624287613260376,
+"alpha": 16,
+"z": 5.994985587767543,
+"sigma": 25026.973348769123,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=14, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|8|1e-05": {
+"eps": 1.1616790013272487,
+"eps_gauss": 1.0848715583291892,
+"alpha": 20,
+"z": 6.408909173735355,
+"sigma": 26754.95991400473,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=14, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|9|1e-05": {
+"eps": 1.080708733487686,
+"eps_gauss": 1.0199482714857055,
+"alpha": 20,
+"z": 6.797674705135415,
+"sigma": 28377.92037835049,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=14, Fhp=16, lr_num=1, lr_shift=2, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|10|1e-05": {
+"eps": 1.023626132374119,
+"eps_gauss": 0.9680096420109185,
+"alpha": 24,
+"z": 7.165378287047133,
+"sigma": 29912.954551498253,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=15, Fhp=16, lr_num=1, lr_shift=3, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|1|1e-05": {
+"eps": Infinity,
+"eps_gauss": Infinity,
+"alpha": null,
+"z": 4.531783143087772,
+"sigma": 18918.613611995992,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=15, Fhp=16, lr_num=1, lr_shift=3, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|2|1e-05": {
+"eps": 7.38479530894319,
+"eps_gauss": 1.0848715566966471,
+"alpha": 3,
+"z": 6.4089091826884985,
+"sigma": 26754.959951380977,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=15, Fhp=16, lr_num=1, lr_shift=3, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|3|1e-05": {
+"eps": 1.4589022364167188,
+"eps_gauss": 0.8901016967103768,
+"alpha": 10,
+"z": 7.8492786527122,
+"sigma": 32767.99998474121,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=15, Fhp=16, lr_num=1, lr_shift=3, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|5|1e-05": {
+"eps": 0.7726178492075046,
+"eps_gauss": 0.683016468396427,
+"alpha": 24,
+"z": 10.133375167231915,
+"sigma": 42303.30607647587,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=15, Fhp=16, lr_num=1, lr_shift=3, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|6|1e-05": {
+"eps": 0.6880363009064852,
+"eps_gauss": 0.631077839066755,
+"alpha": 32,
+"z": 11.100556325511208,
+"sigma": 46340.949990262394,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=15, Fhp=16, lr_num=1, lr_shift=3, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|7|1e-05": {
+"eps": 0.6194837017575878,
+"eps_gauss": 0.5788470495047054,
+"alpha": 32,
+"z": 11.989971192284882,
+"sigma": 50053.9467674628,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=15, Fhp=16, lr_num=1, lr_shift=3, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|8|1e-05": {
+"eps": 0.58114958308215,
+"eps_gauss": 0.5371106509362189,
+"alpha": 32,
+"z": 12.817818365376997,
+"sigma": 53509.919902761954,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=15, Fhp=16, lr_num=1, lr_shift=3, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|9|1e-05": {
+"eps": 0.5496272455891207,
+"eps_gauss": 0.504649007605174,
+"alpha": 48,
+"z": 13.595349429263315,
+"sigma": 56755.840835987976,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=15, Fhp=16, lr_num=1, lr_shift=3, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|10|1e-05": {
+"eps": 0.5072684938036249,
+"eps_gauss": 0.47867969294033785,
+"alpha": 48,
+"z": 14.330756594114101,
+"sigma": 59825.90918657233,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=16, Fhp=16, lr_num=1, lr_shift=4, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|1|1e-05": {
+"eps": Infinity,
+"eps_gauss": Infinity,
+"alpha": null,
+"z": 9.063566289340958,
+"sigma": 37837.22723720648,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=16, Fhp=16, lr_num=1, lr_shift=4, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|2|1e-05": {
+"eps": 2.0521486687814736,
+"eps_gauss": 0.5371106507321513,
+"alpha": 8,
+"z": 12.817818369853569,
+"sigma": 53509.91992145008,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=16, Fhp=16, lr_num=1, lr_shift=4, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|3|1e-05": {
+"eps": 0.6937155697442746,
+"eps_gauss": 0.4397257208070386,
+"alpha": 24,
+"z": 15.698557310907058,
+"sigma": 65535.999992370605,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=16, Fhp=16, lr_num=1, lr_shift=4, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|5|1e-05": {
+"eps": 0.3817050667716397,
+"eps_gauss": 0.3385607365305012,
+"alpha": 48,
+"z": 20.266750341541908,
+"sigma": 84606.61218250025,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=16, Fhp=16, lr_num=1, lr_shift=4, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|6|1e-05": {
+"eps": 0.3417993634440797,
+"eps_gauss": 0.31259142188380457,
+"alpha": 64,
+"z": 22.20111265877606,
+"sigma": 92681.90001289356,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=16, Fhp=16, lr_num=1, lr_shift=4, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|7|1e-05": {
+"eps": 0.3070890974217264,
+"eps_gauss": 0.29404191142187835,
+"alpha": 64,
+"z": 23.97994239294466,
+"sigma": 100107.89356988788,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=16, Fhp=16, lr_num=1, lr_shift=4, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|8|1e-05": {
+"eps": 0.28777630659215014,
+"eps_gauss": 0.2801297785754337,
+"alpha": 64,
+"z": 25.635636739707138,
+"sigma": 107019.83984290015,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=16, Fhp=16, lr_num=1, lr_shift=4, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|9|1e-05": {
+"eps": 0.2743361532560211,
+"eps_gauss": 0.26930923080597674,
+"alpha": 64,
+"z": 27.19069886802287,
+"sigma": 113511.68171161944,
+"Delta": 4174.651128408943
+},
+"Config(arch=(58, 64, 32, 10), b=128, Bx=8, center=True, Fa=8, Fw=8, Bw=10, Bh=10, Fd=10, g=8, Cg=1024, Bs=8, sh=15, J=4, r=16, Fhp=16, lr_num=1, lr_shift=4, mom_num=9, mom_den=10, init_seed=0, init_out_shift=3, init_bias=64)|2|10|1e-05": {
+"eps": 0.26419143589402794,
+"eps_gauss": 0.2606527925904112,
+"alpha": 64,
+"z": 28.661513198238122,
+"sigma": 119651.81841493258,
+"Delta": 4174.651128408943
+}
+}
