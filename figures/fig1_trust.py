@@ -25,7 +25,8 @@ def plants(x0, y_top, bad_y):
 
 for p, (title, marks) in enumerate(panels):
     x = p * (PW + GAP)
-    cv.box(x, 0.02, PW, H - 0.04, fc='#fbfbfb', ec='#bdbdbd', lw=0.6, r=0.06)
+    if p:                                                        # thin rule between panels, no cards
+        cv.ax.plot([x - GAP / 2, x - GAP / 2], [0.10, H - 0.08], color='#cfcfcf', lw=0.6, zorder=1)
     cv.text(x + PW / 2, H - 0.15, title, size=7.6, weight='bold')
     top, bad = 1.86, 1.08
     ys = plants(x + 0.25, top, bad)
@@ -33,7 +34,7 @@ for p, (title, marks) in enumerate(panels):
         sx, sy = x + 1.85, 1.50
         cv.icon('server', sx, sy, 0.34, C['public'])
         cv.icon('magnify', sx + 0.17, sy + 0.17, 0.15, C['bad'], z=7)
-        cv.text(sx, sy - 0.32, 'server reads every\nupdate and can\ninvert it', size=6.2, color=C['bad'])
+        cv.text(sx, sy - 0.40, 'server reads\nevery update', size=6.2, color=C['bad'])
         for y in ys[:2]:
             cv.arrow(x + 0.42, y, sx - 0.2, sy + 0.04, color=C['plant'])
         cv.arrow(x + 0.42, bad, sx - 0.2, sy - 0.06, color=C['bad'], lw=1.1)
@@ -43,13 +44,13 @@ for p, (title, marks) in enumerate(panels):
         sx, sy = x + 1.85, 1.50
         cv.icon('server', sx, sy, 0.34, C['public'])
         cv.icon('sigma', sx + 0.17, sy + 0.17, 0.14, C['node'], z=7)
-        cv.text(sx, sy - 0.32, 'sees only the sum;\nnoise must be added\nhonestly by someone', size=6.2, color=C['public'])
+        cv.text(sx + 0.06, sy - 0.46, 'sees only the sum;\nnoise must be added\nhonestly by someone', size=6.2, color=C['public'])
         for y in ys[:2]:
             cv.arrow(x + 0.42, y, sx - 0.2, sy + 0.04, color=C['plant'])
             cv.icon('lock', x + 0.95, y - 0.05 if y == ys[0] else y + 0.03, 0.11, C['plant'], z=7)
         cv.arrow(x + 0.42, bad, sx - 0.2, sy - 0.06, color=C['bad'], lw=1.1)
         cv.icon('lock', x + 0.95, bad + 0.12, 0.11, C['bad'], z=7)
-        cv.text(x + 1.05, 0.98, 'crafted update within\nthe bound: accepted', size=6.2, color=C['bad'], rotation=13)
+        cv.text(x + 0.88, 1.01, 'any update in bound: accepted', size=6.2, color=C['bad'], rotation=13)
     else:
         lx = x + 1.08
         for k in range(5):                                       # the public log as a strip of entries
