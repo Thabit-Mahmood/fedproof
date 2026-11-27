@@ -1,19 +1,21 @@
-"""Fig. 1: what each approach trusts, and what a corrupted plant can do in each."""
-import sys
+"""Fig. 1: what each approach trusts, and what a corrupted plant can do in each.
+
+Writes one image per subfigure: fig1a_fedavg.png, fig1b_secagg.png, fig1c_fedproof.png.
+The optional argument is the output directory (or a file path inside it).
+"""
+import os, sys
 from figkit import Canvas, C
 
-W, H = 7.16, 2.42
-cv = Canvas(W, H)
-PW, GAP = 2.32, 0.10
+PW, PH, Y0 = 2.32, 2.12, 0.06                                    # panel width, height, bottom of the drawing
 rows = ('Individual updates hidden', 'Training step proved', 'Noise verified', 'Post-quantum')
 panels = [
-    ('(a) Federated averaging', (False, False, False, False)),
-    ('(b) Secure aggregation with norm checks', (True, False, False, False)),
-    ('(c) Proof-carrying training (this work)', (True, True, True, True)),
+    ('fig1a_fedavg.png', (False, False, False, False)),
+    ('fig1b_secagg.png', (True, False, False, False)),
+    ('fig1c_fedproof.png', (True, True, True, True)),
 ]
 
 
-def plants(x0, y_top, bad_y):
+def plants(cv, x0, y_top, bad_y):
     ys = [y_top, y_top - 0.36, bad_y]
     for k, y in enumerate(ys):
         bad = y == bad_y
@@ -23,13 +25,11 @@ def plants(x0, y_top, bad_y):
     return ys
 
 
-for p, (title, marks) in enumerate(panels):
-    x = p * (PW + GAP)
-    if p:                                                        # thin rule between panels, no cards
-        cv.ax.plot([x - GAP / 2, x - GAP / 2], [0.10, H - 0.08], color='#cfcfcf', lw=0.6, zorder=1)
-    cv.text(x + PW / 2, H - 0.15, title, size=7.6, weight='bold')
+def panel(p, marks):
+    cv = Canvas(PW, PH + Y0)
+    x = 0.0
     top, bad = 1.86, 1.08
-    ys = plants(x + 0.25, top, bad)
+    ys = plants(cv, x + 0.25, top, bad)
     if p == 0:
         sx, sy = x + 1.85, 1.50
         cv.icon('server', sx, sy, 0.34, C['public'])
@@ -76,4 +76,13 @@ for p, (title, marks) in enumerate(panels):
         y = 0.56 - k * 0.135
         cv.text(x + 0.14, y, lab, size=6.4, ha='left', color=C['ink'])
         cv.icon('check-circle' if ok else 'close-circle', x + PW - 0.20, y, 0.12, C['good'] if ok else C['bad'])
-cv.save(sys.argv[1] if len(sys.argv) > 1 else 'fig1_trust.png')
+    # same frame for all three panels, so the subfigures line up when placed side by side
+    cv.ax.set_ylim(Y0, PH + Y0); cv.fig.set_size_inches(PW, PH)
+    return cv
+
+
+out = sys.argv[1] if len(sys.argv) > 1 else '.'
+out = os.path.dirname(out) if out.endswith('.png') else out
+for p, (name, marks) in enumerate(panels):
+    cv = panel(p, marks)
+    cv.fig.savefig(os.path.join(out or '.', name), dpi=600, facecolor='white')

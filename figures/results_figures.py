@@ -6,6 +6,7 @@ import numpy as np
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
+import matplotlib.ticker
 
 R = sys.argv[1] if len(sys.argv) > 1 else 'results'
 OUT = sys.argv[2] if len(sys.argv) > 2 else 'figures/out'
@@ -33,10 +34,29 @@ def save(fig, name):
     plt.close(fig)
 
 
-# ------------------------------------------------------------------ Fig. 4: detection against privacy
+def panel(w, h, left, bottom, right=0.06, top=0.06):
+    """One subfigure with a fixed plot area, so that panels placed side by side line up."""
+    fig = plt.figure(figsize=(w, h))
+    ax = fig.add_axes([left / w, bottom / h, 1 - (left + right) / w, 1 - (bottom + top) / h])
+    return fig, ax
+
+
+def save_panel(fig, name):
+    fig.savefig(os.path.join(OUT, name + '.png'), facecolor='white')
+    plt.close(fig)
+
+
+def save_legend(handles, labels, ncol, name, **kw):
+    """The legend shared by the subfigures of one figure, drawn as its own image."""
+    fig = plt.figure(figsize=(7.16, 0.4))
+    fig.legend(handles, labels, loc='center', ncol=ncol, **kw)
+    save(fig, name)
+
+
+# ------------------------------------------------------------------ Fig. 5: detection against privacy, one image per dataset
 e1, e2 = rows('E1_detection'), rows('E2_privacy')
-fig, axs = plt.subplots(1, 3, figsize=(7.16, 2.25), sharey=False)
-for ax, (ds, title), let in zip(axs, DS, 'abc'):
+for (ds, title), name in zip(DS, ('fig5a_edge', 'fig5b_wustl', 'fig5c_xiiotid')):
+    fig, ax = panel(2.32, 2.00, left=0.44, bottom=0.42)
     for sy, sp, u, col, mk, ls, lab in (('ours', 'iid', 2, C_OURS, 'o', '-', 'FedProof, 10 plants'),
                                         ('trusted_dp', 'iid', 2, C_TRUST, 's', '-', 'Trusted aggregator, 10 plants'),
                                         ('ours', 'iid50', 8, C_OURS, '^', '--', 'FedProof, 50 plants'),
@@ -52,21 +72,19 @@ for ax, (ds, title), let in zip(axs, DS, 'abc'):
     fc = np.mean([r['macro_f1'] for r in e1 if r['dataset'] == ds and r['split'] == 'iid' and r['system'] == 'float_central'])
     ax.axhline(nn, color=C_OURS, lw=0.8, ls=(0, (1, 1.5)), label='FedProof, no noise')
     ax.axhline(fc, color='#555555', lw=0.8, ls=(0, (4, 2)), label='Centralized model')
-    ax.set_xscale('log'); ax.set_title('(%s) %s' % (let, title)); ax.set_xlabel(r'Privacy budget $\varepsilon$ ($\delta = 10^{-5}$)')
-    ax.set_ylim(0.2, 1.0)
-axs[0].set_ylabel('Macro-F1')
-h, l = axs[0].get_legend_handles_labels()
-fig.legend(h, l, loc='lower center', ncol=3, bbox_to_anchor=(0.5, -0.13))
-fig.tight_layout(w_pad=1.2)
-save(fig, 'fig5_privacy')
+    ax.set_xscale('log'); ax.set_xlabel(r'Privacy budget $\varepsilon$ ($\delta = 10^{-5}$)')
+    ax.set_ylim(0.2, 1.0); ax.set_ylabel('Macro-F1')
+    h, l = ax.get_legend_handles_labels()
+    save_panel(fig, name)
+save_legend(h, l, 3, 'fig5_legend')
 
-# ------------------------------------------------------------------ Fig. 5: poisoning (mean over datasets and seeds)
+# ------------------------------------------------------------------ Fig. 6: poisoning (mean over datasets and seeds), one image per attack
 e4 = rows('E4_poisoning')
-panels = (('label_flip', 'macro_f1', 'Label flipping', 'Macro-F1'), ('garbage', 'macro_f1', 'Garbage data', 'Macro-F1'),
-          ('attack_to_normal', 'attack_success', 'Attacks relabeled normal', 'Attack success'),
-          ('backdoor', 'attack_success', 'Feature-trigger backdoor', 'Attack success'))
-fig, axs = plt.subplots(1, 4, figsize=(7.16, 2.05))
-for ax, (at, met, title, yl), let in zip(axs, panels, 'abcd'):
+panels = (('label_flip', 'macro_f1', 'fig6a_label_flip', 'Macro-F1'), ('garbage', 'macro_f1', 'fig6b_garbage', 'Macro-F1'),
+          ('attack_to_normal', 'attack_success', 'fig6c_attack_to_normal', 'Attack success'),
+          ('backdoor', 'attack_success', 'fig6d_backdoor', 'Attack success'))
+for at, met, name, yl in panels:
+    fig, ax = panel(1.74, 1.68, left=0.40, bottom=0.40)
     for si, (sy, lab, col, mk, ls) in enumerate(SYS):
         off = (si - (len(SYS) - 1) / 2) * 0.9      # small horizontal offset per system, same values
         ys, es = [], []
@@ -75,31 +93,29 @@ for ax, (at, met, title, yl), let in zip(axs, panels, 'abcd'):
             ys.append(np.mean(v)); es.append(np.std(v) / np.sqrt(max(1, len(v))))
         ax.errorbar([10 + off, 20 + off, 30 + off], ys, yerr=es, color=col, marker=mk, ls=ls, capsize=1.5, elinewidth=0.6,
                     label=lab, ms=4.2 if sy == 'ours' else 3.4, lw=1.7 if sy == 'ours' else 0.9, zorder=5 if sy == 'ours' else 2)
-    ax.set_title('(%s) %s' % (let, title)); ax.set_xticks([10, 20, 30]); ax.set_xlabel('Poisoned plants (%)'); ax.set_ylabel(yl)
+    ax.set_xticks([10, 20, 30]); ax.set_xlabel('Poisoned plants (%)'); ax.set_ylabel(yl)
     ax.set_ylim(-0.03, 1.03) if met == 'attack_success' else ax.set_ylim(0.0, 0.65)
-h, l = axs[0].get_legend_handles_labels()
-fig.legend(h, l, loc='lower center', ncol=6, bbox_to_anchor=(0.5, -0.11))
-fig.tight_layout(w_pad=0.8)
-save(fig, 'fig6_poisoning')
+    h, l = ax.get_legend_handles_labels()
+    save_panel(fig, name)
+save_legend(h, l, 6, 'fig6_legend')
 
-# ------------------------------------------------------------------ Fig. 6: proof cost against model size
+# ------------------------------------------------------------------ Fig. 7: proof cost against model size, one image per chunk size
 e5 = rows('E5_proofcost')
-fig, axs = plt.subplots(1, 2, figsize=(3.5, 1.85), sharey=True)
-for ax, b, let in ((axs[0], 16, 'a'), (axs[1], 128, 'b')):
+for b, name in ((16, 'fig7a_b16'), (128, 'fig7b_b128')):
+    fig, ax = panel(1.72, 1.61, left=0.38, bottom=0.40)
     for lvl, col, mk in (('P128', C_OURS, 'o'), ('P256', '#b03a2e', 's')):
         pts = sorted((r['d'], r['prove_s'], r['verify_s']) for r in e5 if r['b'] == b and r['level'] == lvl)
         xs = [p[0] / 1000 for p in pts]
         ax.plot(xs, [p[1] for p in pts], color=col, ls='-', marker=mk, ms=3.5, label='Prove, %s' % lvl)
         ax.plot(xs, [p[2] for p in pts], color=col, ls='--', marker=mk, ms=3.5, mfc='white', label='Verify, %s' % lvl)
     ax.set_yscale('log'); ax.set_yticks([0.5, 1, 2, 5, 10, 20]); ax.set_yticklabels(['0.5', '1', '2', '5', '10', '20'])
-    ax.set_ylim(0.4, 32); ax.set_title('(%s) $b = %d$' % (let, b)); ax.set_xlabel('Parameters (thousands)')
-axs[0].set_ylabel('Time (s)')
-h, l = axs[0].get_legend_handles_labels()
-fig.legend(h, l, loc='lower center', ncol=2, bbox_to_anchor=(0.5, -0.2))
-fig.tight_layout(w_pad=0.6)
-save(fig, 'fig7_proof_cost')
+    ax.set_ylim(0.4, 32); ax.set_xlabel('Parameters (thousands)'); ax.set_ylabel('Time (s)')
+    ax.yaxis.set_minor_formatter(matplotlib.ticker.NullFormatter())
+    h, l = ax.get_legend_handles_labels()
+    save_panel(fig, name)
+save_legend(h, l, 4, 'fig7_legend', columnspacing=1.0, handlelength=1.6)
 
-# ------------------------------------------------------------------ Fig. 7: round time on kernel-shaped links
+# ------------------------------------------------------------------ Fig. 8: round time on kernel-shaped links
 e6 = rows('E6_network')
 prof = (('industrial-ethernet', 'Industrial\nEthernet'), ('private-5g', 'Private\n5G'), ('constrained-wan', 'Constrained\nwide-area'))
 get = lambda p, drop, loss, f: np.mean(next(r for r in e6 if r['key'] == 'edge-iiotset|live|%s|drop=%s|loss=%g|kernel' % (p, drop, loss))[f])
@@ -117,7 +133,7 @@ ax.set_ylim(0, 205)
 fig.tight_layout()
 save(fig, 'fig8_links')
 
-# ------------------------------------------------------------------ Fig. 8: scaling
+# ------------------------------------------------------------------ Fig. 9: scaling
 e7 = rows('E7_scaling')
 em = sorted({(r['plants'], np.mean(r['emulated_round_s'])) for r in e7})
 rp = sorted({(r['plants'], np.mean(r['replay_round_s'])) for r in e7 if r.get('replay_round_s')})
